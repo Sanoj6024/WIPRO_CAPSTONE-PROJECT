@@ -32,6 +32,7 @@ Right-click → **Run as Administrator**
 ### 2️⃣ Enable WSL and Install Ubuntu
 ```bash
 wsl --install
+```
 
 3️⃣ Restart When Prompted
 
@@ -69,21 +70,22 @@ logs/maintenance.log	Master log file that stores all operations, alerts, and err
 🖥️ How to Run the Suite
 
 1️⃣ Open Terminal
-
+```bash
 ctrl + alt + t
+```
 
 2️⃣ Navigate to the Project Directory
-
+```bash
 cd WIPRO_CAPSTONE-PROJECT/BASH_SUITE
-
+```
 3️⃣ Give Execute Permission
-
+```bash
 chmod +x *.sh
-
+```
 4️⃣ Run the Menu Interface
-
+```bash
 ./MENU.sh
-
+```
 You will see:
 
 ==============================
