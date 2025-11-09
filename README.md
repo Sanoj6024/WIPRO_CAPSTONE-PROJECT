@@ -34,15 +34,15 @@ Right-click → **Run as Administrator**
 wsl --install
 ```
 
-3️⃣ Restart When Prompted
+### 3️⃣ Restart When Prompted
 
-4️⃣ Create Linux Username and Password After Setup
+### 4️⃣ Create Linux Username and Password After Setup
 
 
 
 ---
 
-📁 Project Structure
+## 📁 Project Structure
 
 BASH_SUITE/
 │
@@ -54,7 +54,7 @@ BASH_SUITE/
 └── logs/
     └── maintenance.log
 
-File/Folder	Purpose
+## File/Folder Purpose
 
 BACKUP.sh	Creates timestamped backups from source directory to backup directory.
 UPDATE_CLEANUP.sh	Updates system packages and cleans cache to free disk space.
@@ -67,22 +67,22 @@ logs/maintenance.log	Master log file that stores all operations, alerts, and err
 
 ---
 
-🖥️ How to Run the Suite
+## 🖥️ How to Run the Suite
 
-1️⃣ Open Terminal
+### 1️⃣ Open Terminal
 ```bash
 ctrl + alt + t
 ```
 
-2️⃣ Navigate to the Project Directory
+### 2️⃣ Navigate to the Project Directory
 ```bash
 cd WIPRO_CAPSTONE-PROJECT/BASH_SUITE
 ```
-3️⃣ Give Execute Permission
+### 3️⃣ Give Execute Permission
 ```bash
 chmod +x *.sh
 ```
-4️⃣ Run the Menu Interface
+### 4️⃣ Run the Menu Interface
 ```bash
 ./MENU.sh
 ```
@@ -100,7 +100,7 @@ You will see:
 
 ---
 
-🧾 Log File Details
+## 🧾 Log File Details
 
 All operations performed using the scripts are recorded in:
 
@@ -122,7 +122,7 @@ Purpose: Helps in auditing, debugging, and verifying tasks during project presen
 
 ---
 
-🌟 Features
+## 🌟 Features
 
 ✅ Menu-driven interface for easy navigation
 
@@ -138,9 +138,10 @@ Purpose: Helps in auditing, debugging, and verifying tasks during project presen
 
 ---
 
-👨‍💻 Author
+## 👨‍💻 Author
 
 Sanoj Shreyas Deo 
+
 B.Tech CSE – Siksha ’O’ Anusandhan University
 WIPRO Capstone Project
 
